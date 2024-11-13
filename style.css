@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.plano-de-fundo img{
+    width: 98.8vw;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+}
