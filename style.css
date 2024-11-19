@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "Roboto", sans-serif;
 }
 
 .container-one{
@@ -11,7 +14,7 @@
     align-items: center;
     position: absolute;
     top: 1%;
-    left: 32%;
+    left: 28%;
 }
 
 .container-one img{
@@ -66,4 +69,108 @@
 
 #img-car{
     width: 300px;
+    margin-bottom: 50vw;
+}
+
+.container-two{
+    width: 72vw;
+    display:flex;
+    margin: auto;
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+}
+
+.container-two div{
+    margin-left: 3.5vw;
+}
+
+.titles{
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw;
+}
+
+.container-two p{
+    opacity: 55%;
+}
+
+#parceiros-img{
+    margin-left: 15vw;
+    margin-bottom: 3.5vw;
+}
+
+.container-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 45vw;
+}
+
+.container-three span{
+    font-size: 20px;
+    text-align: center;
+}
+
+.container-three p{
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    font-size: 10px;
+    font-weight: bold;
+    color: #696969;
+    text-transform: uppercase;
+}
+
+.container-three button{
+    width: 10vw;
+    height: 6vh;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #017f61;
+}
+
+.container-four{
+    width: 40vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vw;
+}
+
+.container-four h4{
+    color: #696969;
+    margin: auto;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    text-transform: uppercase;
+}
+
+.faqs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.faqs p{
+    font-size: 15px;
+}
+
+.linha{
+    width: 100%;
+    border-bottom: 1px solid #696969;
+    opacity: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.terms-privacy{
+    margin-top: 15vw;
+    margin-left: 60vw;
+    font-size: small;
+}
+
+.terms-privacy span{
+    margin-right: 1vw;
+    color: #3CB371;
 }
