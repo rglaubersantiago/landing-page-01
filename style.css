@@ -130,42 +130,8 @@
     background-color: #017f61;
 }
 
-.container-four{
-    width: 40vw;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    margin-top: 10vw;
-}
-
-.container-four h4{
-    color: #696969;
-    margin: auto;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    text-transform: uppercase;
-}
-
-.faqs{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.faqs p{
-    font-size: 15px;
-}
-
-.linha{
-    width: 100%;
-    border-bottom: 1px solid #696969;
-    opacity: 30%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
 .terms-privacy{
-    margin-top: 15vw;
+    margin-top: 5vw;
     margin-left: 60vw;
     font-size: small;
 }
